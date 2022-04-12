@@ -476,6 +476,50 @@ PrefabInstance:
       propertyPath: arCamera
       value: 
       objectReference: {fileID: 1993628759}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1741841502772102, guid: ab529b5b06f1615488282d828ce30550, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1280101189940206, guid: 7935dccdde741c74f9ee8d8885b63fd5, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 1329727071298276, guid: 1b935668453a5a2498ee1a539a2ebdff, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 1487675457671966, guid: d17127c7303758e4b9de49e6b7974ef2, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 1753261207574304, guid: 05a54b5a09a79ee4aaea280ebe1d25c9, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 1117288842128870, guid: bbf53e28ed61dd94f8fce96b92b85f34, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[6]
+      value: 
+      objectReference: {fileID: 1366419743796956, guid: be316be6c9a0a5f47b8a67130ed47473, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[7]
+      value: 
+      objectReference: {fileID: 1464001762300212, guid: 4b55383d494ed954fa0e1066466f109a, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[8]
+      value: 
+      objectReference: {fileID: 1094098237617702, guid: 426e387d0c126ee49834643c7a68c4eb, type: 3}
+    - target: {fileID: 4214054541761321461, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
+      propertyPath: projectilesPrefabs.Array.data[9]
+      value: 
+      objectReference: {fileID: 1371075557621072, guid: ec21bdc597704414eb2d0da9b9754c52, type: 3}
     - target: {fileID: 4214054541761321462, guid: f2a26d8d16500ac47bc5825c62f4dfd1, type: 3}
       propertyPath: m_RootOrder
       value: 4
