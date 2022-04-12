@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARDKHelloWorld.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ARDKMeshing.unity
+    guid: a3f1590fd67a2044fb900c425f72b8aa
   m_configObjects: {}
