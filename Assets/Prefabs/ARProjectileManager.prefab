@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4214054541761321463
+--- !u!1 &4485993023481439226
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4214054541761321462}
-  - component: {fileID: 4214054541761321461}
+  - component: {fileID: 4485993023481439221}
+  - component: {fileID: 4485993023481439220}
   m_Layer: 0
   m_Name: ARProjectileManager
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4214054541761321462
+--- !u!4 &4485993023481439221
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214054541761321463}
+  m_GameObject: {fileID: 4485993023481439226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,13 +31,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4214054541761321461
+--- !u!114 &4485993023481439220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214054541761321463}
+  m_GameObject: {fileID: 4485993023481439226}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82a6e3d4ce23ebf4b84a94d5b74a32e0, type: 3}
@@ -45,14 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arCamera: {fileID: 0}
   projectilesPrefabs:
-  - {fileID: 1741841502772102, guid: ab529b5b06f1615488282d828ce30550, type: 3}
-  - {fileID: 1280101189940206, guid: 7935dccdde741c74f9ee8d8885b63fd5, type: 3}
-  - {fileID: 1329727071298276, guid: 1b935668453a5a2498ee1a539a2ebdff, type: 3}
-  - {fileID: 1487675457671966, guid: d17127c7303758e4b9de49e6b7974ef2, type: 3}
-  - {fileID: 1753261207574304, guid: 05a54b5a09a79ee4aaea280ebe1d25c9, type: 3}
-  - {fileID: 1117288842128870, guid: bbf53e28ed61dd94f8fce96b92b85f34, type: 3}
-  - {fileID: 1366419743796956, guid: be316be6c9a0a5f47b8a67130ed47473, type: 3}
-  - {fileID: 1464001762300212, guid: 4b55383d494ed954fa0e1066466f109a, type: 3}
-  - {fileID: 1094098237617702, guid: 426e387d0c126ee49834643c7a68c4eb, type: 3}
-  - {fileID: 1371075557621072, guid: ec21bdc597704414eb2d0da9b9754c52, type: 3}
+  - {fileID: 9081287597572909893, guid: ad24a08b21374034e9cf3c51b853fd4b, type: 3}
+  - {fileID: 6460859954321790813, guid: fdc2891dce240294282f4f6fc75f6d4b, type: 3}
+  - {fileID: 2467380625195024999, guid: 9a0ff1b544d13a842bb8cbd70c7f1a72, type: 3}
   force: 200

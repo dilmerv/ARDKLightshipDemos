@@ -10,20 +10,21 @@ public class ARProjectileManager : MonoBehaviour
     private GameObject[] projectilesPrefabs;
 
     [SerializeField]
-    private float force = 50.0f;
-    
+    private float force = 200.0f;
+
     void Update()
     {
-        if (PlatformAgnosticInput.touchCount <= 0) { return; }
+        if (PlatformAgnosticInput.touchCount <= 0) return;
 
         var touch = PlatformAgnosticInput.GetTouch(0);
+
         if (touch.phase == TouchPhase.Began)
         {
             LaunchRandomProjectile();
         }
     }
 
-    private void LaunchRandomProjectile()
+    void LaunchRandomProjectile()
     {
         var prefab = projectilesPrefabs[Random.Range(0, projectilesPrefabs.Length)];
         var projectile = Instantiate(prefab, arCamera.transform.position, Quaternion.identity);
